@@ -5,9 +5,19 @@ import "testing"
 func TestFizzBuzzShouldReturn1WhenInput1(t *testing.T) {
 	input := 1
 
-	want := FizzBuzz(input)
+	got := FizzBuzz(input)
 
-	if want != "1" {
-		t.Errorf("want 1 but got %s", want)
+	if got != "1" {
+		t.Errorf("want 1 but got %s", got)
+	}
+}
+
+func TestFizzBuzzShouldReturn2WhenInput2(t *testing.T) {
+	input := 2
+
+	got := FizzBuzz(input)
+
+	if got != "2" {
+		t.Errorf("want 2 but got %s", got)
 	}
 }
