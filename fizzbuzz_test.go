@@ -18,6 +18,7 @@ var cases = []struct {
 	{7, "7"},
 	{8, "8"},
 	{9, "Fizz"},
+	{10, "Buzz"},
 }
 
 func TestFizzBuzz(t *testing.T) {
