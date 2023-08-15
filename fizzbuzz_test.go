@@ -9,7 +9,7 @@ func TestFizzBuzzShouldReturn1WhenInput1(t *testing.T) {
 	got := FizzBuzz(input)
 
 	if got != want {
-		t.Errorf("want 1 but got %s", got)
+		t.Errorf("want %s but got %s", want, got)
 	}
 }
 
@@ -20,7 +20,7 @@ func TestFizzBuzzShouldReturn2WhenInput2(t *testing.T) {
 	got := FizzBuzz(input)
 
 	if got != want {
-		t.Errorf("want 2 but got %s", got)
+		t.Errorf("want %s but got %s", want, got)
 	}
 }
 
@@ -31,7 +31,7 @@ func TestFizzBuzzShouldReturn3WhenInputFizz(t *testing.T) {
 	got := FizzBuzz(input)
 
 	if got != want {
-		t.Errorf("want 3 but got %s", got)
+		t.Errorf("want %s but got %s", want, got)
 	}
 }
 
@@ -42,6 +42,6 @@ func TestFizzBuzzShouldReturn4WhenInput4(t *testing.T) {
 	got := FizzBuzz(input)
 
 	if got != want {
-		t.Errorf("want 4 but got %s", got)
+		t.Errorf("want %s but got %s", want, got)
 	}
 }
